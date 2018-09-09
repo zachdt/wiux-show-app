@@ -1,27 +1,30 @@
 <template>
     <div id="landing">
-        <b-progress :value="time" :max="max" show-progress animated></b-progress>
+        <b-progress id="progress" :value="time" :max="max" show-progress animated></b-progress>
+        <div id="monday">
+
+        </div>
+        <div id="tuesday">
+
+        </div>
+        <div id="wednesday">
+
+        </div>
+        <div id="thursday">
+
+        </div>
+        <div id="friday">
+
+        </div>
     </div>
 </template>
 
 <script>
-
 export default {
-    data () {
-        return{
-            time: new Date
-            max: 
-        }
-    },
-    created () {
-        setInterval(() => this.time = new Date, 1000 * 60)
-    },
     name: 'landing'
 }
 </script>
 
 <style>
-@import '@/bootstrap/dist/css/bootstrap.css';
-@import '@/bootstrap-vue/dist/css/bootstrap-vue.cs';
 </style>
 

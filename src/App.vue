@@ -1,19 +1,17 @@
 <template>
   <div id="app">
-      <show-array></show-array>
+      <landing></landing>
   </div>
 </template>
 
 <script>
 export default {
   name: 'App',
-  components: {'show-array': require('@/components/show-array.vue')}
+  components: {'landing': require('./components/landing.vue')}
 }
 </script>
 
 <style>
-@import 'bootstrap/dist/css/bootstrap.css';
-@import 'bootstrap-vue/dist/css/bootstrap-vue.cs';
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
