@@ -1,0 +1,14 @@
+html {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2c3e50;
+    background-color: whitesmoke;
+  }
+
+h1{
+    margin-top: 3rem;
+    font-size: xx-large;
+    margin-left: 5rem;
+    text-align: left;
+}

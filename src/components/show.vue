@@ -1,12 +1,13 @@
 <template>
-    <div id="show">
+    <div id="Show">
+        <p>{{show.name}}</p>
     </div>
 </template>
 
 <script>
-
 export default {
     props: {
+        format: { Type:Boolean, default: false},
         art: String,
         path: String,
         name: String,
@@ -14,7 +15,7 @@ export default {
         catagory: String,
         hosts: String
     },
-    name: 'show'
+    name: 'Show'
 }
 </script>
 

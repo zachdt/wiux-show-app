@@ -1,23 +1,22 @@
 <template>
-  <div id="app">
-      <landing></landing>
+  <div id="App">
+      <h1 id="appTitle">Show Schedule</h1>
+      <landing/>
   </div>
 </template>
 
 <script>
+
+import Landing from './components/landing.vue'
+
 export default {
   name: 'App',
-  components: {'landing': require('./components/landing.vue')}
+  components: {
+    Landing
+  }
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+@import 'style/app.css';
 </style>
